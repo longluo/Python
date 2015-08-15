@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"st",
+				"student2dict"
+			],
+			[
+				"tr",
+				"try	Try/Except"
+			],
+			[
+				"wi",
+				"write"
+			],
+			[
+				"H",
+				"HappyMan"
+			],
+			[
+				"l",
+				"laugh_100th"
+			],
+			[
+				"po",
+				"possible_in_KFC"
+			],
+			[
+				"w",
+				"way_of_move"
+			],
+			[
+				"p",
+				"penguin"
+			],
+			[
 				"f",
 				"formataddr"
 			],
@@ -14,10 +46,6 @@
 			[
 				"a",
 				"assertEquals"
-			],
-			[
-				"tr",
-				"try	Try/Except"
 			],
 			[
 				"t",
@@ -40,10 +68,6 @@
 				"try	Try/Except"
 			],
 			[
-				"p",
-				"print"
-			],
-			[
 				"se",
 				"self"
 			],
@@ -54,10 +78,6 @@
 			[
 				"print",
 				"print_score"
-			],
-			[
-				"st",
-				"std1"
 			],
 			[
 				"pr",
@@ -160,10 +180,6 @@
 				"int"
 			],
 			[
-				"l",
-				"LED_DATA"
-			],
-			[
 				"i",
 				"i"
 			],
@@ -196,12 +212,67 @@
 	"buffers":
 	[
 		{
-			"file": "email/sendmail.py",
+			"file": "oop/oop_intro.py",
 			"settings":
 			{
-				"buffer_size": 316,
-				"line_ending": "Unix",
-				"name": "#"
+				"buffer_size": 566,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "oop/bird.py",
+			"settings":
+			{
+				"buffer_size": 593,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "oop/human.py",
+			"settings":
+			{
+				"buffer_size": 417,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 429,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "io/file_read_write.py",
+			"settings":
+			{
+				"buffer_size": 985,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "io/file_and_dir.py",
+			"settings":
+			{
+				"buffer_size": 406,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "io/pickling.py",
+			"settings":
+			{
+				"buffer_size": 411,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "io/json_demo.py",
+			"settings":
+			{
+				"buffer_size": 860,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -229,6 +300,10 @@
 	},
 	"file_history":
 	[
+		"/Users/luolong/Code/LearnPython/io/json.py",
+		"/Users/luolong/Code/LearnPython/io/untitled",
+		"/Users/luolong/Code/LearnPython/io/file_read_write.py",
+		"/Users/luolong/Downloads/泡妞经验.txt",
 		"/Users/luolong/Code/LearnPython/functional/sorted.py",
 		"/Users/luolong/Code/LearnPython/debug/error_process.py",
 		"/Users/luolong/Code/LearnPython/debug/err.py",
@@ -240,7 +315,6 @@
 		"/Users/luolong/Code/LearnPython/module/module_demo.py",
 		"/Users/luolong/Code/LearnPython/oop/oop_intro.py",
 		"/Users/luolong/Code/LearnPython/oop/property.py",
-		"/Users/luolong/Code/LearnPython/io/file_read_write.py",
 		"/Users/luolong/Code/LearnPython/debug/debug_print.py",
 		"/Users/luolong/Code/LearnPython/debug/debug_assert.py",
 		"/Users/luolong/Code/LearnPython/debug/debug_logging.py",
@@ -248,6 +322,7 @@
 		"/Users/luolong/Code/LearnPython/debug/mydict.py",
 		"/Users/luolong/Code/LearnPython/debug/mydict_test.py",
 		"/Users/luolong/Code/LearnPython/debug/doctest.py",
+		"/Users/luolong/Code/LearnPython/email/sendmail.py",
 		"/Users/luolong/Code/LearnPython/debug/debug.py",
 		"/Users/luolong/Code/LearnPython/debug/error_raise.py",
 		"/Users/luolong/Downloads/kiss",
@@ -356,32 +431,216 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "email/sendmail.py",
+					"file": "oop/oop_intro.py",
 					"settings":
 					{
-						"buffer_size": 316,
+						"buffer_size": 566,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								314,
-								314
+								85,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "#",
 							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "oop/bird.py",
+					"settings":
+					{
+						"buffer_size": 593,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								586,
+								586
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "oop/human.py",
+					"settings":
+					{
+						"buffer_size": 417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "io/file_read_write.py",
+					"settings":
+					{
+						"buffer_size": 985,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								138,
+								141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "io/file_and_dir.py",
+					"settings":
+					{
+						"buffer_size": 406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "io/pickling.py",
+					"settings":
+					{
+						"buffer_size": 411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								231
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "io/json_demo.py",
+					"settings":
+					{
+						"buffer_size": 860,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								853,
+								853
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 507.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -449,6 +708,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 220.0,
+	"side_bar_width": 179.0,
 	"status_bar_visible": true
 }
