@@ -1,7 +1,5 @@
-import numpy as np
-import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 def f(x):
@@ -9,48 +7,34 @@ def f(x):
 
 
 def g(x):
-    return x ** x
+    return np.math.factorial(x)
 
 
 def h(x):
-    return np.math.factorial(n)
+    return x ** x
 
 
 x = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
 
 y1 = f(x)
-y2 = g(x)
+
+y2 = []
+for i in x:
+    y2.append(g(i))
+
+y3 = h(x)
 
 fig = plt.figure(figsize=(10, 8))
 
 plt.yscale("log")
 
-plt.plot(x, y1, color="red", linestyle='-')
-plt.plot(x, y2, color="green", marker='o')
+lines = plt.plot(x, y1, x, y2, x, y3, 'o')
 
-y3 = []
+plt.setp(lines[0], linewidth=1, color="r", linestyle='dashed')
+plt.setp(lines[1], linewidth=2, color="g", linestyle='dotted')
+plt.setp(lines[2], linewidth=3, color="b", linestyle='solid')
 
-for n in x:
-    y3.append(h(n))
-
-plt.plot(x, y3, color="blue", marker='*')
-
-plt.xlabel("X Axis--------->")
-plt.ylabel("Y Axis--------->")
+plt.legend(('y = e^x', 'y = x!', 'y = x^x'), loc='upper left')
+plt.title('Function Graph')
 
 plt.show()
-
-# df = pd.DataFrame(zip(x, y1, y2, y3), columns= ['x', 'y=e^x', 'y=x^x', 'y=x!']).set_index('x')
-# fig, ax = plt.subplots()
-
-# Plot sns.lineplot() to the ax
-# sns.set_palette('Set2')
-# sns.set_style('ticks')
-# sns.lineplot(df, ax=ax)
-# ax.set_title('Plotting Functions in Matplotlib', size=14)
-# ax.set_xlim(-5, 5)
-# ax.set_ylim(-5, 25)
-#
-# # Despine the graph
-# sns.despine()
-# plt.show()
